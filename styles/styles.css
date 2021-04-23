@@ -1,0 +1,16 @@
+header {
+    background-color: rgb(128, 207, 207);
+    display: inline-block;
+    width: 600px;
+    margin-left: calc((100% - 600px) / 2);
+    margin-right: calc((100% - 600px) / 2);
+}
+
+main {
+    background-color: hotpink;
+    display: inline-block;
+    width: 600px;
+    margin-left: calc((100% - 600px) / 2);
+    margin-right: calc((100% - 600px) / 2);
+    
+}
