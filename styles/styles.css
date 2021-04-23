@@ -14,3 +14,11 @@ main {
     margin-right: calc((100% - 600px) / 2);
     
 }
+
+header > img {
+    height: 80px;
+}
+
+main > img {
+    height: 300px;
+}
