@@ -1,24 +1,63 @@
+body {
+    background-color: rgb(240, 239, 239);
+}
+
+body  * {
+    color: gray;
+    font-family: monospace;
+}
+
 header {
-    background-color: rgb(128, 207, 207);
     display: inline-block;
-    width: 600px;
-    margin-left: calc((100% - 600px) / 2);
-    margin-right: calc((100% - 600px) / 2);
+    width: 900px;
+    margin-left: calc((100% - 900px) / 2);
+    margin-right: calc((100% - 900px) / 2);
+}
+
+header > * {
+    display: inline-block;
+}
+
+nav {
+    float: right;
+    margin-top: 30px;
 }
 
 main {
-    background-color: hotpink;
     display: inline-block;
-    width: 600px;
-    margin-left: calc((100% - 600px) / 2);
-    margin-right: calc((100% - 600px) / 2);
-    
+    width: 900px;
+    margin-left: calc((100% - 900px) / 2);
+    margin-right: calc((100% - 900px) / 2);
+    }
+
+main > * {
+    display: inline-block;
+    width: 49%;
 }
 
-.small-img {
+main > div > h1 {
+    font-size: 100px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+main > div > p {
+    font-size: 30px;
+    margin-block-start: 0;
+}
+
+header > img {
     height: 80px;
 }
 
-main > img {
-    height: 300px;
+.btn {
+    text-decoration: none;
+    margin: 10px;
+}
+
+.signin {
+    border-style: solid;
+    border-color: gray;
+    padding: 5px 10px;
+    border-radius: 15px;
 }
